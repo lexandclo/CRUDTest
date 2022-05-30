@@ -1,3 +1,33 @@
+
+## CRUD Test
+
+Part 2 | Coding Test
+Use any PHP MVC framework that you prefer; ideally it would be Yii2, but Laravel or any other will work. Set up a GitHub repository.
+
+- The framework needs 2 pages.
+- We need a products page and a category page. We need the interface to add categories and products to the categories.
+- Categories are defined by name.
+- Products are defined by name, price, and category.
+
+
+The interface can be a standard form with refresh on submit or more dynamic, it’s up to
+you; however, you shouldn’t spend more than 3 hours on the test. It is expected to have a
+basic CRUD working model for products and categories.
+
+It is advised that you use an appropriate CSS framework (e.g. Bootstrap), for a pleasant look.
+
+## Set up
+
+- Clone git in directory -  git clone https://github.com/lexandclo/CRUDTest.git .
+- Run composer update
+- Create mysql database and configure .env file with details ( .env.example included )
+- run php artisan migrate
+- run php artisan key:generate
+- then run php artisan serve
+- You should have access now via http://127.0.0.1:8000
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
